@@ -1668,3 +1668,195 @@ msgid ""
 msgstr ""
 "Якщо цю опцію ввімкнено, оборотно-сальдова відомість не показуватиме "
 "рахунки, для яких початковий баланс = дебет = кредит = кінцевий баланс = 0."
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
+msgid "Account Name"
+msgstr "Назва рахунку"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
+msgid "Age ≤ 120 d."
+msgstr "Вік ≤ 120 дн."
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
+msgid "Age ≤ 30 d."
+msgstr "Вік ≤ 30 дн."
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
+msgid "Age ≤ 60 d."
+msgstr "Вік ≤ 60 дн."
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
+msgid "Age ≤ 90 d."
+msgstr "Вік ≤ 90 дн."
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
+msgid "Amount Currency"
+msgstr "Сума у валюті"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
+msgid "Base Credit"
+msgstr "Базовий кредит"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
+msgid "Base Debit"
+msgstr "Базовий дебет"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
+msgid "Entries sorted by"
+msgstr "Записи відсортовано за"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/wizard/journal_ledger_wizard.py:0
+msgid "Entry number"
+msgstr "Номер запису"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/models/account_age_report_configuration.py:0
+msgid "Inferior Limit must be greather than zero"
+msgstr "Нижня межа має бути більшою за нуль"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
+msgid "Level %s"
+msgstr "Рівень %s"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/open_items.py:0
+msgid "Missing Salesperson"
+msgstr "Відсутній продавець"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/models/account_age_report_configuration.py:0
+msgid "Must complete Configuration Lines"
+msgstr "Потрібно заповнити рядки конфігурації"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/wizard/journal_ledger_wizard.py:0
+msgid "No group"
+msgstr "Без групи"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/wizard/journal_ledger_wizard.py:0
+msgid "Not Posted"
+msgstr "Не проведено"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+msgid "Partner Initial balance"
+msgstr "Початковий баланс партнера"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
+msgid "Partner cumul aged balance"
+msgstr "Накопичений віковий баланс партнера"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
+msgid "Tax Balance"
+msgstr "Податковий баланс"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
+msgid "Tax Credit"
+msgstr "Податковий кредит"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
+msgid "Tax Debit"
+msgstr "Податковий дебет"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+msgid "Tax Initial balance"
+msgstr "Початковий податковий баланс"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/wizard/general_ledger_wizard.py:0
+msgid ""
+"The Company in the General Ledger Report Wizard and in Date Range must be "
+"the same."
+msgstr ""
+"Компанія в майстрі звіту головної книги та в діапазоні дат має збігатися."
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/wizard/trial_balance_wizard.py:0
+msgid ""
+"The Company in the Trial Balance Report Wizard and in Date Range must be the"
+" same."
+msgstr ""
+"Компанія в майстрі звіту оборотно-сальдової відомості та в діапазоні дат має"
+" збігатися."
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/wizard/vat_report_wizard.py:0
+msgid ""
+"The Company in the Vat Report Wizard and in Date Range must be the same."
+msgstr "Компанія в майстрі звіту ПДВ і діапазоні дат має збігатися."
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/wizard/trial_balance_wizard.py:0
+msgid "The hierarchy level to filter on must be greater than 0."
+msgstr "Рівень ієрархії для фільтрації має бути більшим за 0."
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/trial_balance.py:0
+msgid ""
+"There is a problem in the structure of the account groups. You may need to "
+"create some child group of %s."
+msgstr ""
+"Є проблема у структурі груп рахунків. Можливо, потрібно створити дочірню "
+"групу для %s."
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/vat_report_xlsx.py:0
+msgid "Vat Report"
+msgstr "Звіт з ПДВ"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/trial_balance.py:0
+msgid "Without analytic account"
+msgstr "Без аналітичного рахунку"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger.py:0
+msgid "future"
+msgstr "майбутній"

@@ -639,3 +639,158 @@ msgstr "Використовувати виписки про активніст�
 #: model:res.groups,name:partner_statement.group_outstanding_statement
 msgid "Use outstanding statements"
 msgstr "Використовувати виписки непогашених сум"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+msgid "1 - 30 Days"
+msgstr "1–30 днів"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+msgid "1 Month"
+msgstr "1 місяць"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+msgid "121 Days +"
+msgstr "121 день +"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+msgid "2 Months"
+msgstr "2 місяці"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+msgid "3 Months"
+msgstr "3 місяці"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+msgid "31 - 60 Days"
+msgstr "31–60 днів"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+msgid "4 Months"
+msgstr "4 місяці"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+msgid "61 - 90 Days"
+msgstr "61–90 днів"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+msgid "91 - 120 Days"
+msgstr "91–120 днів"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common_xlsx.py:0
+msgid "Aging Report at %(end)s in %(currency)s"
+msgstr "Звіт про прострочення на %(end)s у %(currency)s"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+msgid "Aging Report at %(ending_date)s in %(currency)s"
+msgstr "Звіт про прострочення на %(ending_date)s у %(currency)s"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement.py:0
+msgid ""
+"Detailed Statement between %(starting_date)s and %(ending_date)s in "
+"%(currency)s"
+msgstr ""
+"Детальна виписка між %(starting_date)s і %(ending_date)s у %(currency)s"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement.py:0
+msgid ""
+"Detailed Supplier Statement between %(starting_date)s and %(ending_date)s in"
+" %(currency)s"
+msgstr ""
+"Детальна виписка постачальника між %(starting_date)s і %(ending_date)s у "
+"%(currency)s"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/detailed_activity_statement.py:0
+msgid "Ending Balance up to %(ending_date)s in %(currency)s"
+msgstr "Кінцевий баланс до %(ending_date)s у %(currency)s"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/detailed_activity_statement.py:0
+msgid "Prior Balance up to %(ending_date)s in %(currency)s"
+msgstr "Попередній баланс до %(ending_date)s у %(currency)s"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement.py:0
+msgid ""
+"Statement between %(starting_date)s and %(ending_date)s in %(currency)s"
+msgstr "Виписка між %(starting_date)s і %(ending_date)s у %(currency)s"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common_xlsx.py:0
+msgid "Statement from:"
+msgstr "Виписка від:"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common_xlsx.py:0
+msgid "Statement of Account from %s"
+msgstr "Виписка з рахунку від %s"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common_xlsx.py:0
+msgid "Statement to:"
+msgstr "Виписка до:"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/outstanding_statement.py:0
+msgid "Statement up to %(ending_date)s in %(currency)s"
+msgstr "Виписка до %(ending_date)s у %(currency)s"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/detailed_activity_statement.py:0
+msgid "Supplier Ending Balance up to %(ending_date)s in %(currency)s"
+msgstr "Кінцевий баланс постачальника до %(ending_date)s у %(currency)s"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/detailed_activity_statement.py:0
+msgid "Supplier Prior Balance up to %(ending_date)s in %(currency)s"
+msgstr "Попередній баланс постачальника до %(ending_date)s у %(currency)s"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement.py:0
+msgid ""
+"Supplier Statement between %(starting_date)s and %(ending_date)s in "
+"%(currency)s"
+msgstr ""
+"Виписка постачальника між %(starting_date)s і %(ending_date)s у %(currency)s"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/outstanding_statement.py:0
+msgid "Supplier Statement up to %(ending_date)s in %(currency)s"
+msgstr "Виписка постачальника до %(ending_date)s у %(currency)s"

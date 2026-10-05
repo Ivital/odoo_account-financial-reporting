@@ -245,3 +245,9 @@ msgstr "четвертий місяць"
 #: model:mis.report.instance.period,name:mis_builder_cash_flow.mis_period_plus_third_month
 msgid "third month"
 msgstr "третій місяць"
+
+#. module: mis_builder_cash_flow
+#. odoo-python
+#: code:addons/mis_builder_cash_flow/models/mis_cash_flow_forecast_line.py:0
+msgid "The forecast line company must be one of the account's companies."
+msgstr "Компанія рядка прогнозу має бути однією з компаній рахунку."

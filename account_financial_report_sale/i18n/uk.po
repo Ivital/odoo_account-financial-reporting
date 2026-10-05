@@ -32,3 +32,9 @@ msgstr "Звіт відкритих позицій"
 #: model:ir.model,name:account_financial_report_sale.model_open_items_report_wizard
 msgid "Open Items Report Wizard"
 msgstr "Майстер звіту відкритих позицій"
+
+#. module: account_financial_report_sale
+#. odoo-python
+#: code:addons/account_financial_report_sale/report/open_items.py:0
+msgid "Missing Delivery Address"
+msgstr "Відсутня адреса доставки"

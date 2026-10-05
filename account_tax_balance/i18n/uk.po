@@ -243,3 +243,21 @@ msgstr "Непідтримуваний оператор пошуку"
 #: model:ir.model,name:account_tax_balance.model_wizard_open_tax_balances
 msgid "Wizard Open Tax Balances"
 msgstr "Майстер відкритих податкових сальдо"
+
+#. module: account_tax_balance
+#. odoo-python
+#: code:addons/account_tax_balance/wizard/open_tax_balances.py:0
+msgid "%(name)s: %(target)s from %(from)s to %(to)s"
+msgstr "%(name)s: %(target)s від %(from)s до %(to)s"
+
+#. module: account_tax_balance
+#. odoo-python
+#: code:addons/account_tax_balance/models/account_move.py:0
+msgid "Payable refund"
+msgstr "Повернення до сплати"
+
+#. module: account_tax_balance
+#. odoo-python
+#: code:addons/account_tax_balance/models/account_move.py:0
+msgid "Receivable refund"
+msgstr "Повернення дебіторської заборгованості"
