@@ -18,3 +18,8 @@ msgstr ""
 #: model:ir.ui.menu,name:account_move_line_cumulated_balance.menu_action_account_moves_cumulated_balance
 msgid "Journal Items Cumulated Balance"
 msgstr "Накопичувальний баланс журнальних позицій"
+
+#. module: account_move_line_cumulated_balance
+#: model_terms:ir.ui.view,arch_db:account_move_line_cumulated_balance.view_move_line_pivot_cumulated_balance
+msgid "Journal Items"
+msgstr "Проведення журналу"

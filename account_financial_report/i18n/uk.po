@@ -517,3 +517,668 @@ msgstr "Оборотно-сальдова відомість"
 #: model:ir.ui.menu,name:account_financial_report.menu_vat_report_wizard
 msgid "VAT Report"
 msgstr "Звіт з ПДВ"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_lines_header
+msgid "&gt; 120 d."
+msgstr "&gt; 120 дн."
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_lines_header
+msgid "1 - 30 d."
+msgstr "1–30 дн."
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_lines_header
+msgid "31 - 60 d."
+msgstr "31–60 дн."
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_lines_header
+msgid "61 - 90 d."
+msgstr "61–90 дн."
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_lines_header
+msgid "91 - 120 d."
+msgstr "91–120 дн."
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_all_taxes
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_ledger_journal_taxes
+msgid "<b>Taxes summary</b>"
+msgstr "<b>Підсумок податків</b>"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.aged_partner_balance_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.general_ledger_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.open_items_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.trial_balance_wizard
+msgid "<span class=\"oe_inline\">To</span>"
+msgstr "<span class=\"oe_inline\">До</span>"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_aged_partner_balance_report_wizard__account_code_from
+#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__account_code_from
+#: model:ir.model.fields,field_description:account_financial_report.field_open_items_report_wizard__account_code_from
+#: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__account_code_from
+msgid "Account Code From"
+msgstr "Код рахунку від"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_aged_partner_balance_report_wizard__account_code_to
+#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__account_code_to
+#: model:ir.model.fields,field_description:account_financial_report.field_open_items_report_wizard__account_code_to
+#: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__account_code_to
+msgid "Account Code To"
+msgstr "Код рахунку до"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_filters
+msgid "Account at 0 filter"
+msgstr "Фільтр рахунку на 0"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_filters
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_filters
+msgid "Account balance at 0 filter"
+msgstr "Фільтр балансу рахунку на 0"
+
+#. module: account_financial_report
+#: model:ir.model.fields.selection,name:account_financial_report.selection__aged_partner_balance_report_wizard__target_move__posted
+#: model:ir.model.fields.selection,name:account_financial_report.selection__general_ledger_report_wizard__target_move__posted
+#: model:ir.model.fields.selection,name:account_financial_report.selection__open_items_report_wizard__target_move__posted
+#: model:ir.model.fields.selection,name:account_financial_report.selection__trial_balance_report_wizard__target_move__posted
+#: model:ir.model.fields.selection,name:account_financial_report.selection__vat_report_wizard__target_move__posted
+msgid "All Posted Entries"
+msgstr "Усі проведені записи"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_filters
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_filters
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_filters
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_filters
+msgid "All entries"
+msgstr "Усі записи"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_filters
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_filters
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_filters
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_filters
+msgid "All posted entries"
+msgstr "Усі проведені записи"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_ledger_journal_table_header
+msgid "Amount Cur."
+msgstr "Сума у валюті"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_lines
+msgid "Amount cur."
+msgstr "Сума у валюті"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_account_move_line__analytic_account_ids
+#: model:ir.model.fields.selection,name:account_financial_report.selection__trial_balance_report_wizard__grouped_by__analytic_account
+msgid "Analytic Account"
+msgstr "Аналітичний рахунок"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_lines
+msgid "Analytic Distribution"
+msgstr "Аналітичний розподіл"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_all_taxes
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_ledger_journal_taxes
+msgid "Base Amount"
+msgstr "Базова сума"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.aged_partner_balance_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.general_ledger_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.journal_ledger_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.open_items_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.trial_balance_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.vat_report_wizard
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_filters
+msgid "Centralize filter"
+msgstr "Централізований фільтр"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_account_group__compute_account_ids
+msgid "Compute accounts"
+msgstr "Обчислити рахунки"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_lines
+msgid "Cumul cur."
+msgstr "Накопичувальна валюта"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_lines
+msgid "Cumul. Bal."
+msgstr "Накопичувальний баланс"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_ledger_journal_table_header
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_lines_header
+msgid "Cur."
+msgstr "Вал."
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_lines_header
+msgid "Cur. Original"
+msgstr "Початкова валюта"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_lines_header
+msgid "Cur. Residual"
+msgstr "Залишкова валюта"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_filters
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_filters
+msgid "Date at filter"
+msgstr "Дата у фільтрі"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/vat_report_xlsx.py:0
+msgid "Date from"
+msgstr "Дата від"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_filters
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_filters
+msgid "Date range filter"
+msgstr "Фільтр діапазону дат"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_vat_report_wizard__tax_detail
+msgid "Detail Taxes"
+msgstr "Деталізація податків"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_ending_cumul
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_lines_header
+msgid "Ending balance"
+msgstr "Кінцевий баланс"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.aged_partner_balance_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.general_ledger_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.journal_ledger_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.open_items_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.trial_balance_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.vat_report_wizard
+msgid "Export PDF"
+msgstr "Експортувати PDF"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.aged_partner_balance_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.general_ledger_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.journal_ledger_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.open_items_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.trial_balance_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.vat_report_wizard
+msgid "Export XLSX"
+msgstr "Експортувати XLSX"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_aged_partner_balance_report_wizard__account_ids
+#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__account_ids
+#: model:ir.model.fields,field_description:account_financial_report.field_open_items_report_wizard__account_ids
+#: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__account_ids
+#: model_terms:ir.ui.view,arch_db:account_financial_report.general_ledger_wizard
+msgid "Filter accounts"
+msgstr "Фільтрувати рахунки"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__account_journal_ids
+msgid "Filter journals"
+msgstr "Фільтрувати журнали"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_aged_partner_balance_report_wizard__partner_ids
+#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__partner_ids
+#: model:ir.model.fields,field_description:account_financial_report.field_open_items_report_wizard__partner_ids
+#: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__partner_ids
+#: model_terms:ir.ui.view,arch_db:account_financial_report.general_ledger_wizard
+msgid "Filter partners"
+msgstr "Фільтрувати контрагентів"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.aged_partner_balance_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.general_ledger_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.open_items_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.trial_balance_wizard
+msgid "Filtered accounts (empty for all)"
+msgstr "Відфільтровані рахунки (порожньо — усі)"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_journal_ledger_report_wizard__foreign_currency
+msgid "Foreign Currency"
+msgstr "Іноземна валюта"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.aged_partner_balance_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.general_ledger_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.open_items_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.trial_balance_wizard
+msgid "From Code"
+msgstr "З коду"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_filters
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_filters
+msgid "From:"
+msgstr "Від:"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__fy_start_date
+#: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__fy_start_date
+msgid "Fy Start Date"
+msgstr "Дата початку фінансового року"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_base
+msgid "General Ledger -"
+msgstr "Головна книга —"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_journal_ledger_report_wizard__group_option
+msgid "Group entries by"
+msgstr "Групувати записи за"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_filters
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_filters
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_filters
+msgid "Hide"
+msgstr "Приховати"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__hide_account_at_0
+#: model:ir.model.fields,field_description:account_financial_report.field_open_items_report_wizard__hide_account_at_0
+msgid "Hide account ending balance at 0"
+msgstr "Приховувати кінцевий баланс рахунку, якщо він 0"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_account_age_report_configuration_line__inferior_limit
+msgid "Inferior Limit"
+msgstr "Нижня межа"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_lines
+msgid "Initial balance"
+msgstr "Початковий баланс"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_aged_partner_balance_report_wizard__age_partner_config_id
+#: model:ir.model.fields,field_description:account_financial_report.field_res_config_settings__age_partner_config_id
+msgid "Intervals configuration"
+msgstr "Конфігурація інтервалів"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_ledger_base
+msgid "Journal Ledger -"
+msgstr "Журнал-Головна книга —"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_account_financial_report_abstract_wizard__label_text_limit
+#: model:ir.model.fields,field_description:account_financial_report.field_aged_partner_balance_report_wizard__label_text_limit
+#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__label_text_limit
+#: model:ir.model.fields,field_description:account_financial_report.field_journal_ledger_report_wizard__label_text_limit
+#: model:ir.model.fields,field_description:account_financial_report.field_open_items_report_wizard__label_text_limit
+#: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__label_text_limit
+#: model:ir.model.fields,field_description:account_financial_report.field_vat_report_wizard__label_text_limit
+msgid "Label Text Limit"
+msgstr "Ліміт тексту етикетки"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_account_age_report_configuration__write_uid
+#: model:ir.model.fields,field_description:account_financial_report.field_account_age_report_configuration_line__write_uid
+#: model:ir.model.fields,field_description:account_financial_report.field_aged_partner_balance_report_wizard__write_uid
+#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__write_uid
+#: model:ir.model.fields,field_description:account_financial_report.field_journal_ledger_report_wizard__write_uid
+#: model:ir.model.fields,field_description:account_financial_report.field_open_items_report_wizard__write_uid
+#: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__write_uid
+#: model:ir.model.fields,field_description:account_financial_report.field_vat_report_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_account_age_report_configuration__write_date
+#: model:ir.model.fields,field_description:account_financial_report.field_account_age_report_configuration_line__write_date
+#: model:ir.model.fields,field_description:account_financial_report.field_aged_partner_balance_report_wizard__write_date
+#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__write_date
+#: model:ir.model.fields,field_description:account_financial_report.field_journal_ledger_report_wizard__write_date
+#: model:ir.model.fields,field_description:account_financial_report.field_open_items_report_wizard__write_date
+#: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__write_date
+#: model:ir.model.fields,field_description:account_financial_report.field_vat_report_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
+#: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__limit_hierarchy_level
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_filters
+msgid "Limit hierarchy levels"
+msgstr "Обмежити рівні ієрархії"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/vat_report_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_vat_report_base
+msgid "Net"
+msgstr "Нетто"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_filters
+msgid "No"
+msgstr "Ні"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_filters
+msgid "No limit"
+msgstr "Без ліміту"
+
+#. module: account_financial_report
+#: model:ir.model.fields.selection,name:account_financial_report.selection__general_ledger_report_wizard__grouped_by__none
+msgid "None"
+msgstr "Немає"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_lines_header
+msgid "Not due"
+msgstr "Не прострочено"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_move_lines
+msgid "Older"
+msgstr "Старіші"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__only_one_unaffected_earnings_account
+#: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__only_one_unaffected_earnings_account
+msgid "Only One Unaffected Earnings Account"
+msgstr "Лише один рахунок нерозподіленого прибутку"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_base
+msgid "Open Items -"
+msgstr "Відкриті позиції —"
+
+#. module: account_financial_report
+#: model:ir.actions.report,name:account_financial_report.action_report_open_items_xlsx
+msgid "Open Items XLSX"
+msgstr "Відкриті позиції XLSX"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_lines_header
+msgid "Original"
+msgstr "Оригінал"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_ending_cumul
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_ending_cumul
+msgid "Partner ending balance"
+msgstr "Кінцевий баланс контрагента"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_aged_partner_balance_report_wizard__payable_accounts_only
+#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__payable_accounts_only
+#: model:ir.model.fields,field_description:account_financial_report.field_open_items_report_wizard__payable_accounts_only
+#: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__payable_accounts_only
+msgid "Payable Accounts Only"
+msgstr "Лише кредиторські рахунки"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_account_ending_cumul
+msgid "Percents"
+msgstr "Відсотки"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_lines_header
+msgid "Period balance"
+msgstr "Баланс періоду"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_lines
+msgid "Rec."
+msgstr "Отримано"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_aged_partner_balance_report_wizard__receivable_accounts_only
+#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__receivable_accounts_only
+#: model:ir.model.fields,field_description:account_financial_report.field_open_items_report_wizard__receivable_accounts_only
+#: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__receivable_accounts_only
+msgid "Receivable Accounts Only"
+msgstr "Лише дебіторські рахунки"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_move_lines
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_lines
+msgid ""
+"Ref -\n"
+"                        Label"
+msgstr ""
+"Посилання —\n"
+"                        Мітка"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_ledger_journal_table_header
+msgid "Ref - Label"
+msgstr "Посилання — мітка"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_lines_header
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_move_lines
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_lines_header
+msgid "Residual"
+msgstr "Залишок"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_filters
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_filters
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_filters
+msgid "Show"
+msgstr "Показати"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_open_items_report_wizard__show_partner_details
+#: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__show_partner_details
+msgid "Show Partner Details"
+msgstr "Показувати деталі контрагента"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
+#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__foreign_currency
+#: model:ir.model.fields,field_description:account_financial_report.field_open_items_report_wizard__foreign_currency
+#: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__foreign_currency
+msgid "Show foreign currency"
+msgstr "Показувати іноземну валюту"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__show_hierarchy
+msgid "Show hierarchy"
+msgstr "Показувати ієрархію"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_journal_ledger_report_wizard__sort_option
+msgid "Sort entries by"
+msgstr "Сортувати записи за"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/vat_report_xlsx.py:0
+#: model:ir.model.fields.selection,name:account_financial_report.selection__vat_report_wizard__based_on__taxgroups
+msgid "Tax Groups"
+msgstr "Податкові групи"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/vat_report_xlsx.py:0
+#: model:ir.model.fields.selection,name:account_financial_report.selection__vat_report_wizard__based_on__taxtags
+msgid "Tax Tags"
+msgstr "Податкові теги"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_ending_cumul
+msgid "Tax ending balance"
+msgstr "Кінцевий податковий баланс"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_filters
+msgid "To:"
+msgstr "Кому:"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_base
+msgid "Trial Balance -"
+msgstr "Оборотно-сальдова відомість —"
+
+#. module: account_financial_report
+#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__unaffected_earnings_account
+#: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__unaffected_earnings_account
+msgid "Unaffected Earnings Account"
+msgstr "Рахунок нерозподіленого прибутку"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_vat_report_base
+msgid "VAT Report -"
+msgstr "Звіт з ПДВ —"
+
+#. module: account_financial_report
+#: model:ir.actions.report,name:account_financial_report.action_report_vat_report_xlsx
+msgid "VAT Report XLSX"
+msgstr "Звіт ПДВ XLSX"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.aged_partner_balance_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.general_ledger_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.journal_ledger_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.open_items_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.trial_balance_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.vat_report_wizard
+msgid "View"
+msgstr "Перегляд"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_filters
+msgid "Yes"
+msgstr "Так"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.general_ledger_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.journal_ledger_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.open_items_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.trial_balance_wizard
+#: model_terms:ir.ui.view,arch_db:account_financial_report.vat_report_wizard
+msgid "or"
+msgstr "або"
+
+#. module: account_financial_report
+#: model:ir.actions.report,name:account_financial_report.action_print_journal_ledger_wizard_qweb
+msgid "ournal Ledger"
+msgstr "Журнал операцій"
+
+#. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_ledger_journal
+msgid "to"
+msgstr "до"

@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_financial_report_sale.field_open_items_report_wizard__grouped_by
 msgid "Grouped By"
 msgstr "Згруповано за"
+
+#. module: account_financial_report_sale
+#: model:ir.model.fields.selection,name:account_financial_report_sale.selection__open_items_report_wizard__grouped_by__partner_shipping
+msgid "Delivery Address"
+msgstr "Адреса доставки"

@@ -134,3 +134,283 @@ msgstr "Платіж"
 #: code:addons/partner_statement/report/report_statement_common.py:0
 msgid "Total"
 msgstr "Разом"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_document
+msgid "<strong>Date:</strong>"
+msgstr "<strong>Дата:</strong>"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_document
+msgid "<strong>Partner Code:</strong>"
+msgstr "<strong>Код контрагента:</strong>"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_document
+msgid "<strong>Partner Name:</strong>"
+msgstr "<strong>Назва контрагента:</strong>"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_document
+msgid "<strong>The partner doesn't have due entries.</strong>"
+msgstr "<strong>У контрагента немає прострочених записів.</strong>"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__excluded_accounts_selector
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__excluded_accounts_selector
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__excluded_accounts_selector
+#: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__excluded_accounts_selector
+msgid "Accounts to exclude"
+msgstr "Рахунки для виключення"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: model:ir.actions.report,name:partner_statement.action_print_activity_statement
+#: model:ir.actions.report,name:partner_statement.action_print_activity_statement_html
+msgid "Activity Statement"
+msgstr "Виписка діяльності"
+
+#. module: partner_statement
+#: model:ir.model.fields.selection,name:partner_statement.selection__activity_statement_wizard__aging_type__days
+#: model:ir.model.fields.selection,name:partner_statement.selection__detailed_activity_statement_wizard__aging_type__days
+#: model:ir.model.fields.selection,name:partner_statement.selection__outstanding_statement_wizard__aging_type__days
+#: model:ir.model.fields.selection,name:partner_statement.selection__res_config_settings__default_aging_type__days
+#: model:ir.model.fields.selection,name:partner_statement.selection__statement_common_wizard__aging_type__days
+msgid "Age by Days"
+msgstr "Вік у днях"
+
+#. module: partner_statement
+#: model:ir.model.fields.selection,name:partner_statement.selection__activity_statement_wizard__aging_type__months
+#: model:ir.model.fields.selection,name:partner_statement.selection__detailed_activity_statement_wizard__aging_type__months
+#: model:ir.model.fields.selection,name:partner_statement.selection__outstanding_statement_wizard__aging_type__months
+#: model:ir.model.fields.selection,name:partner_statement.selection__res_config_settings__default_aging_type__months
+#: model:ir.model.fields.selection,name:partner_statement.selection__statement_common_wizard__aging_type__months
+msgid "Age by Months"
+msgstr "Вік у місяцях"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+msgid "Applied Amount"
+msgstr "Застосована сума"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+msgid "Balance Forward"
+msgstr "Перенесений баланс"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common_xlsx.py:0
+msgid "Date:"
+msgstr "Дата:"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: model:ir.actions.report,name:partner_statement.action_print_detailed_activity_statement
+#: model:ir.actions.report,name:partner_statement.action_print_detailed_activity_statement_html
+msgid "Detailed Activity Statement"
+msgstr "Детальна виписка діяльності"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__filter_partners_non_due
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__filter_partners_non_due
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__filter_partners_non_due
+#: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__filter_partners_non_due
+msgid "Don't show partners with no due entries"
+msgstr "Не показувати контрагентів без прострочених записів"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/report_statement_common_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
+msgid "Ending Balance"
+msgstr "Кінцевий баланс"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__filter_negative_balances
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__filter_negative_balances
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__filter_negative_balances
+#: model:ir.model.fields,field_description:partner_statement.field_res_config_settings__default_filter_negative_balances
+#: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__filter_negative_balances
+msgid "Exclude Negative Balances"
+msgstr "Виключати від'ємні залишки"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
+msgid "Export PDF"
+msgstr "Експортувати PDF"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
+msgid "Export XLSX"
+msgstr "Експортувати XLSX"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+msgid "Initial Balance"
+msgstr "Початковий баланс"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__write_uid
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__write_uid
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__write_date
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__write_date
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__number_partner_ids
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__number_partner_ids
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__number_partner_ids
+#: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__number_partner_ids
+msgid "Number Partner"
+msgstr "Номер контрагента"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+msgid "Older"
+msgstr "Старіші"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
+msgid "Open Amount"
+msgstr "Відкрита сума"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
+msgid "Original"
+msgstr "Оригінал"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+msgid "Original Amount"
+msgstr "Початкова сума"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
+#: model:ir.actions.report,name:partner_statement.action_print_outstanding_statement
+#: model:ir.actions.report,name:partner_statement.action_print_outstanding_statement_html
+#: model_terms:ir.ui.view,arch_db:partner_statement.res_config_settings_view_form
+msgid "Outstanding Statement"
+msgstr "Виписка за непогашеними сумами"
+
+#. module: partner_statement
+#: model:ir.actions.act_window,name:partner_statement.activity_statement_wizard_action
+#: model:ir.model,name:partner_statement.model_report_partner_statement_activity_statement
+msgid "Partner Activity Statement"
+msgstr "Виписка діяльності контрагента"
+
+#. module: partner_statement
+#: model:ir.actions.act_window,name:partner_statement.detailed_activity_statement_wizard_action
+#: model:ir.model,name:partner_statement.model_report_partner_statement_detailed_activity_statement
+msgid "Partner Detailed Activity Statement"
+msgstr "Детальна виписка діяльності контрагента"
+
+#. module: partner_statement
+#: model:ir.actions.act_window,name:partner_statement.outstanding_statement_wizard_action
+#: model:ir.model,name:partner_statement.model_report_partner_statement_outstanding_statement
+msgid "Partner Outstanding Statement"
+msgstr "Виписка непогашених сум контрагента"
+
+#. module: partner_statement
+#: model:ir.model.fields.selection,name:partner_statement.selection__activity_statement_wizard__account_type__liability_payable
+#: model:ir.model.fields.selection,name:partner_statement.selection__detailed_activity_statement_wizard__account_type__liability_payable
+#: model:ir.model.fields.selection,name:partner_statement.selection__outstanding_statement_wizard__account_type__liability_payable
+#: model:ir.model.fields.selection,name:partner_statement.selection__statement_common_wizard__account_type__liability_payable
+msgid "Payable"
+msgstr "До сплати"
+
+#. module: partner_statement
+#: model:ir.model.fields.selection,name:partner_statement.selection__activity_statement_wizard__account_type__asset_receivable
+#: model:ir.model.fields.selection,name:partner_statement.selection__detailed_activity_statement_wizard__account_type__asset_receivable
+#: model:ir.model.fields.selection,name:partner_statement.selection__outstanding_statement_wizard__account_type__asset_receivable
+#: model:ir.model.fields.selection,name:partner_statement.selection__statement_common_wizard__account_type__asset_receivable
+msgid "Receivable"
+msgstr "До отримання"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
+msgid "Reference number"
+msgstr "Номер посилання"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__show_aging_buckets
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__show_aging_buckets
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__show_aging_buckets
+#: model:ir.model.fields,field_description:partner_statement.field_res_config_settings__default_show_aging_buckets
+#: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__show_aging_buckets
+msgid "Show Aging Buckets"
+msgstr "Показувати інтервали заборгованості"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__show_only_overdue
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__show_only_overdue
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__show_only_overdue
+#: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__show_only_overdue
+msgid "Show Only Overdue"
+msgstr "Показувати лише прострочені"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_document
+msgid "Statement of Account"
+msgstr "Виписка з рахунку"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common_xlsx.py:0
+msgid "VAT:"
+msgstr "ПДВ:"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
+msgid "View"
+msgstr "Перегляд"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
+msgid "or"
+msgstr "або"

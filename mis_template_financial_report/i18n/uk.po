@@ -27,3 +27,28 @@ msgstr "Горизонтальний"
 #: model:ir.model.fields,field_description:mis_template_financial_report.field_mis_report_kpi__split_after
 msgid "Split After"
 msgstr "Розділити після"
+
+#. module: mis_template_financial_report
+#: model:ir.model.fields,field_description:mis_template_financial_report.field_mis_report_instance__allow_horizontal
+msgid "Allow Horizontal"
+msgstr "Дозволити горизонтальне"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_equity
+msgid "Equity"
+msgstr "Власний капітал"
+
+#. module: mis_template_financial_report
+#: model:ir.model,name:mis_template_financial_report.model_mis_report_instance
+msgid "MIS Report Instance"
+msgstr "Екземпляр звіту MIS"
+
+#. module: mis_template_financial_report
+#: model:ir.model,name:mis_template_financial_report.model_mis_report_kpi
+msgid "MIS Report KPI"
+msgstr "KPI звіту MIS"
+
+#. module: mis_template_financial_report
+#: model_terms:ir.ui.view,arch_db:mis_template_financial_report.mis_report_view_kpi_form
+msgid "Splitting"
+msgstr "Розділення"

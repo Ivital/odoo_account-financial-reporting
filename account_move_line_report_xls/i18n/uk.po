@@ -84,3 +84,39 @@ msgstr "Кількість"
 #: code:addons/account_move_line_report_xls/report/account_move_line_xlsx.py:0
 msgid "Reference"
 msgstr "Посилання"
+
+#. module: account_move_line_report_xls
+#. odoo-python
+#: code:addons/account_move_line_report_xls/report/account_move_line_xlsx.py:0
+msgid "Effective Date"
+msgstr "Дата набрання чинності"
+
+#. module: account_move_line_report_xls
+#. odoo-python
+#: code:addons/account_move_line_report_xls/report/account_move_line_xlsx.py:0
+msgid "Journal Items"
+msgstr "Проведення журналу"
+
+#. module: account_move_line_report_xls
+#. odoo-python
+#: code:addons/account_move_line_report_xls/report/account_move_line_xlsx.py:0
+msgid "Rec."
+msgstr "Отримано"
+
+#. module: account_move_line_report_xls
+#. odoo-python
+#: code:addons/account_move_line_report_xls/report/account_move_line_xlsx.py:0
+msgid "Residual Amount"
+msgstr "Залишкова сума"
+
+#. module: account_move_line_report_xls
+#. odoo-python
+#: code:addons/account_move_line_report_xls/report/account_move_line_xlsx.py:0
+msgid "Statement"
+msgstr "Виписка"
+
+#. module: account_move_line_report_xls
+#. odoo-python
+#: code:addons/account_move_line_report_xls/report/account_move_line_xlsx.py:0
+msgid "Unit of Measure"
+msgstr "Одиниця вимірювання"

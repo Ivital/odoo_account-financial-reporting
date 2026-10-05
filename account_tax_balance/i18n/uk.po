@@ -92,3 +92,108 @@ msgstr "До дати"
 #: model_terms:ir.ui.view,arch_db:account_tax_balance.view_tax_tree_balance
 msgid "Total"
 msgstr "Разом"
+
+#. module: account_tax_balance
+#: model_terms:ir.ui.view,arch_db:account_tax_balance.view_tax_search_balance
+msgid "Account Tax"
+msgstr "Податок рахунку"
+
+#. module: account_tax_balance
+#: model:ir.model.fields.selection,name:account_tax_balance.selection__wizard_open_tax_balances__target_move__posted
+msgid "All Posted Entries"
+msgstr "Усі проведені записи"
+
+#. module: account_tax_balance
+#: model:ir.model.fields,field_description:account_tax_balance.field_account_tax__balance_refund
+msgid "Balance Refund"
+msgstr "Баланс повернення"
+
+#. module: account_tax_balance
+#: model_terms:ir.ui.view,arch_db:account_tax_balance.view_tax_tree_balance
+msgid "Base Total"
+msgstr "Базова сума"
+
+#. module: account_tax_balance
+#: model_terms:ir.ui.view,arch_db:account_tax_balance.wizard_open_tax_balances
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_tax_balance
+#: model:ir.model.fields,field_description:account_tax_balance.field_account_bank_statement_line__financial_type
+#: model:ir.model.fields,field_description:account_tax_balance.field_account_move__financial_type
+msgid "Financial Type"
+msgstr "Фінансовий тип"
+
+#. module: account_tax_balance
+#: model_terms:ir.ui.view,arch_db:account_tax_balance.view_account_move_filter
+msgid "Financial type"
+msgstr "Фінансовий тип"
+
+#. module: account_tax_balance
+#: model_terms:ir.ui.view,arch_db:account_tax_balance.view_tax_search_balance
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: account_tax_balance
+#: model:ir.model.fields,field_description:account_tax_balance.field_wizard_open_tax_balances__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_tax_balance
+#: model:ir.model.fields,field_description:account_tax_balance.field_wizard_open_tax_balances__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_tax_balance
+#. odoo-python
+#: code:addons/account_tax_balance/models/account_move.py:0
+msgid "Liquidity"
+msgstr "Ліквідність"
+
+#. module: account_tax_balance
+#: model_terms:ir.ui.view,arch_db:account_tax_balance.wizard_open_tax_balances
+msgid "Open Taxes"
+msgstr "Відкрити податки"
+
+#. module: account_tax_balance
+#. odoo-python
+#: code:addons/account_tax_balance/models/account_move.py:0
+msgid "Other"
+msgstr "Інше"
+
+#. module: account_tax_balance
+#. odoo-python
+#: code:addons/account_tax_balance/models/account_move.py:0
+msgid "Payable"
+msgstr "До сплати"
+
+#. module: account_tax_balance
+#. odoo-python
+#: code:addons/account_tax_balance/models/account_move.py:0
+msgid "Receivable"
+msgstr "До отримання"
+
+#. module: account_tax_balance
+#: model_terms:ir.ui.view,arch_db:account_tax_balance.view_tax_search_balance
+msgid "Tax Group"
+msgstr "Податкова група"
+
+#. module: account_tax_balance
+#: model:ir.model.fields,field_description:account_tax_balance.field_account_tax__balance
+msgid "Total Balance"
+msgstr "Загальний баланс"
+
+#. module: account_tax_balance
+#: model_terms:ir.ui.view,arch_db:account_tax_balance.view_tax_tree_balance
+msgid "View base lines"
+msgstr "Переглянути базові рядки"
+
+#. module: account_tax_balance
+#: model_terms:ir.ui.view,arch_db:account_tax_balance.view_tax_tree_balance
+msgid "View tax lines"
+msgstr "Переглянути рядки податків"
+
+#. module: account_tax_balance
+#: model_terms:ir.ui.view,arch_db:account_tax_balance.wizard_open_tax_balances
+msgid "or"
+msgstr "або"
