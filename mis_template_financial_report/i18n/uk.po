@@ -52,3 +52,67 @@ msgstr "KPI звіту MIS"
 #: model_terms:ir.ui.view,arch_db:mis_template_financial_report.mis_report_view_kpi_form
 msgid "Splitting"
 msgstr "Розділення"
+
+#. module: mis_template_financial_report
+#: model:mis.report,name:mis_template_financial_report.report_bs
+msgid "Balance Sheet"
+msgstr "Баланс"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_current_unallocated
+msgid "Current Year Unallocated Earnings"
+msgstr "Нерозподілений прибуток поточного року"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_liability
+msgid "Liabilities"
+msgstr "Зобов’язання"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_liability_total
+msgid "Liability + Equity"
+msgstr "Зобов’язання + власний капітал"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_loss
+msgid "Loss"
+msgstr "Збиток"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_previous_unallocated
+msgid "Previous Year Unallocated Earnings"
+msgstr "Нерозподілений прибуток попереднього року"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_profit
+msgid "Profit"
+msgstr "Прибуток"
+
+#. module: mis_template_financial_report
+#: model:mis.report,name:mis_template_financial_report.report_pl
+msgid "Profit & Loss"
+msgstr "Прибутки та збитки"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_liability_pl_subreport
+msgid "Profit / Loss"
+msgstr "Прибуток / збиток"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_pl_to_report
+msgid "Profit or loss to report"
+msgstr "Прибуток або збиток для звіту"
+
+#. module: mis_template_financial_report
+#: model:ir.model.fields,help:mis_template_financial_report.field_mis_report_kpi__split_after
+msgid ""
+"Split the table after this KPI. This allows displaying KPIs next to each "
+"other in non-comparison mode"
+msgstr ""
+"Розділити таблицю після цього KPI. Це дає змогу показувати KPI поруч у "
+"режимі без порівняння"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_unallocated_total
+msgid "Unallocated Earnings"
+msgstr "Нерозподілений прибуток"

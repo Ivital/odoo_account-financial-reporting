@@ -173,3 +173,75 @@ msgstr "Записи журналу без встановленого номер
 #: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_tree_view
 msgid "Open Journal Item / Forecast Line"
 msgstr "Відкритий запис журналу / рядок прогнозу"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,help:mis_builder_cash_flow.field_mis_cash_flow__account_type
+msgid ""
+"Account Type is used for information purpose, to generate country-specific "
+"legal reports, and set the rules to close a fiscal year and generate opening"
+" entries."
+msgstr ""
+"Тип рахунку використовується для довідкової інформації, формування юридичних"
+" звітів для конкретної країни та визначення правил закриття фінансового року"
+" й створення початкових записів."
+
+#. module: mis_builder_cash_flow
+#: model:mis.report,name:mis_builder_cash_flow.mis_report_cash_flow
+#: model:mis.report.instance,name:mis_builder_cash_flow.mis_instance_cash_flow
+msgid "Cash Flow"
+msgstr "Грошовий потік"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_in_total
+msgid "IN TOTAL"
+msgstr "РАЗОМ ВХІД"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_in_forecast
+msgid "In forecast"
+msgstr "У прогнозі"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_in_receivable
+msgid "In receivable"
+msgstr "Вхідна дебіторська заборгованість"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model,name:mis_builder_cash_flow.model_mis_cash_flow
+msgid "MIS Cash Flow"
+msgstr "Грошовий потік MIS"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_out_total
+msgid "OUT TOTAL"
+msgstr "РАЗОМ ВИХІД"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_out_forecast
+msgid "Out forecast"
+msgstr "Вихідний прогноз"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_out_payable
+msgid "Out payable"
+msgstr "Вихідна кредиторська заборгованість"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_period_balance
+msgid "PERIOD BALANCE"
+msgstr "САЛЬДО ПЕРІОДУ"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,help:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__account_id
+msgid "The account of the forecast line is only for informative purpose"
+msgstr "Рахунок рядка прогнозу використовується лише для інформації"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.instance.period,name:mis_builder_cash_flow.mis_period_plus_fourth_month
+msgid "fourth month"
+msgstr "четвертий місяць"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.instance.period,name:mis_builder_cash_flow.mis_period_plus_third_month
+msgid "third month"
+msgstr "третій місяць"

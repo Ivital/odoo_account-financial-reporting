@@ -125,3 +125,14 @@ msgstr "Одиниця вимірювання"
 #: model:ir.actions.report,name:account_move_line_report_xls.action_account_move_line_xlsx
 msgid "Export Selected Lines"
 msgstr "Експортувати вибрані рядки"
+
+#. module: account_move_line_report_xls
+#. odoo-python
+#: code:addons/account_move_line_report_xls/report/account_move_line_xlsx.py:0
+msgid "Product Reference"
+msgstr "Референс товару"
+
+#. module: account_move_line_report_xls
+#: model:ir.model,name:account_move_line_report_xls.model_report_account_move_line_report_xls_account_move_line_xlsx
+msgid "XLSX report for account move lines."
+msgstr "XLSX-звіт рядків бухгалтерського запису."

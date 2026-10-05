@@ -22,3 +22,13 @@ msgstr "Згруповано за"
 #: model:ir.model.fields.selection,name:account_financial_report_sale.selection__open_items_report_wizard__grouped_by__partner_shipping
 msgid "Delivery Address"
 msgstr "Адреса доставки"
+
+#. module: account_financial_report_sale
+#: model:ir.model,name:account_financial_report_sale.model_report_account_financial_report_open_items
+msgid "Open Items Report"
+msgstr "Звіт відкритих позицій"
+
+#. module: account_financial_report_sale
+#: model:ir.model,name:account_financial_report_sale.model_open_items_report_wizard
+msgid "Open Items Report Wizard"
+msgstr "Майстер звіту відкритих позицій"
