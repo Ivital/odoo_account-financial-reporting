@@ -197,3 +197,38 @@ msgstr "Переглянути рядки податків"
 #: model_terms:ir.ui.view,arch_db:account_tax_balance.wizard_open_tax_balances
 msgid "or"
 msgstr "або"
+
+#. module: account_tax_balance
+#: model:ir.model.fields,field_description:account_tax_balance.field_account_tax__base_balance_refund
+msgid "Base Balance Refund"
+msgstr "Базовий баланс повернення"
+
+#. module: account_tax_balance
+#: model:ir.model.fields,field_description:account_tax_balance.field_account_tax__has_moves
+msgid "Has balance in period"
+msgstr "Є баланс за період"
+
+#. module: account_tax_balance
+#: model:ir.model.fields,field_description:account_tax_balance.field_account_tax__base_balance
+msgid "Total Base Balance"
+msgstr "Загальний базовий баланс"
+
+#. module: account_tax_balance
+#: model_terms:ir.ui.view,arch_db:account_tax_balance.view_tax_tree_balance
+msgid "View base refund lines"
+msgstr "Переглянути базові рядки повернення"
+
+#. module: account_tax_balance
+#: model_terms:ir.ui.view,arch_db:account_tax_balance.view_tax_tree_balance
+msgid "View base regular lines"
+msgstr "Переглянути базові звичайні рядки"
+
+#. module: account_tax_balance
+#: model_terms:ir.ui.view,arch_db:account_tax_balance.view_tax_tree_balance
+msgid "View tax refund lines"
+msgstr "Переглянути рядки повернення податку"
+
+#. module: account_tax_balance
+#: model_terms:ir.ui.view,arch_db:account_tax_balance.view_tax_tree_balance
+msgid "View tax regular lines"
+msgstr "Переглянути звичайні податкові рядки"

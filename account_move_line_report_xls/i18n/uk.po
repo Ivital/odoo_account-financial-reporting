@@ -120,3 +120,8 @@ msgstr "Виписка"
 #: code:addons/account_move_line_report_xls/report/account_move_line_xlsx.py:0
 msgid "Unit of Measure"
 msgstr "Одиниця вимірювання"
+
+#. module: account_move_line_report_xls
+#: model:ir.actions.report,name:account_move_line_report_xls.action_account_move_line_xlsx
+msgid "Export Selected Lines"
+msgstr "Експортувати вибрані рядки"

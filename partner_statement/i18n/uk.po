@@ -414,3 +414,165 @@ msgstr "Перегляд"
 #: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
 msgid "or"
 msgstr "або"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
+msgid ""
+"<span class=\"o_form_label\">Aging details can be shown in the report, expressed in\n"
+"                        aging\n"
+"                        buckets, so the partner can review how much is open, due or overdue.\n"
+"                    </span>"
+msgstr ""
+"<span class=\"o_form_label\">У звіті можна показати деталізацію за строками заборгованості,\n"
+"                        розподілену за\n"
+"                        інтервалами, щоб контрагент міг переглянути, яка сума відкрита, до сплати або прострочена.\n"
+"                    </span>"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_wizard_view
+msgid ""
+"<span class=\"o_form_label\">The activity statement provides details of all activity on\n"
+"                    a partner's receivables and payables between two selected dates. This includes\n"
+"                    all invoices,\n"
+"                    refunds and payments. Any outstanding balance dated prior to the chosen\n"
+"                    statement\n"
+"                    period will appear as a forward balance at the top of the statement. The list is\n"
+"                    displayed in chronological order and is split by currencies.\n"
+"                </span>\n"
+"                <br/>\n"
+"                <br/>"
+msgstr ""
+"<span class=\"o_form_label\">Виписка про рух містить відомості про всю активність за\n"
+"                    дебіторською та кредиторською заборгованістю контрагента між двома вибраними датами. Сюди входять\n"
+"                    усі рахунки,\n"
+"                    повернення та платежі. Будь-який непогашений баланс із датою до вибраного\n"
+"                    періоду виписки\n"
+"                    буде показано як перенесений баланс у верхній частині виписки. Список\n"
+"                    відображається в хронологічному порядку та розділяється за валютами.\n"
+"                </span>\n"
+"                <br/>\n"
+"                <br/>"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_wizard_view
+msgid ""
+"<span class=\"o_form_label\">The detailed activity statement is an extension of the\n"
+"                    activity statement, and intends to explain the transactions\n"
+"                    that have happened during the period, also providing with a Prior Balance\n"
+"                    section and an Ending Balance section.\n"
+"                </span>\n"
+"                <br/>\n"
+"                <br/>"
+msgstr ""
+"<span class=\"o_form_label\">Детальна виписка про рух є розширенням\n"
+"                    виписки про рух і призначена для пояснення операцій,\n"
+"                    що відбулися протягом періоду, а також містить розділи «Початковий баланс»\n"
+"                    і «Кінцевий баланс».\n"
+"                </span>\n"
+"                <br/>\n"
+"                <br/>"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_wizard_view
+msgid ""
+"<span class=\"o_form_label\">The outstanding statement provides details of all partner's\n"
+"                    outstanding\n"
+"                    receivables and payables up to a particular date. This includes all unpaid\n"
+"                    invoices, unclaimed\n"
+"                    refunds and outstanding payments. The list is displayed in chronological order\n"
+"                    and is\n"
+"                    split by currencies.\n"
+"                </span>\n"
+"                <br/>\n"
+"                <br/>"
+msgstr ""
+"<span class=\"o_form_label\">Виписка про непогашені суми містить відомості про всю непогашену\n"
+"                    дебіторську та кредиторську\n"
+"                    заборгованість контрагента до певної дати. Сюди входять усі неоплачені\n"
+"                    рахунки, незаявлені\n"
+"                    повернення та непогашені платежі. Список відображається в хронологічному порядку\n"
+"                    та\n"
+"                    розділяється за валютами.\n"
+"                </span>\n"
+"                <br/>\n"
+"                <br/>"
+
+#. module: partner_statement
+#: model:ir.actions.report,name:partner_statement.action_print_activity_statement_xlsx
+msgid "Activity Statement XLSX"
+msgstr "Відомість активності XLSX"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.res_config_settings_view_form
+msgid "Activity Statements"
+msgstr "Виписки активностей"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.res_config_settings_view_form
+msgid "Activity Statements show all transactions between two dates."
+msgstr "Відомості активності показують усі транзакції між двома датами."
+
+#. module: partner_statement
+#: model:ir.actions.report,name:partner_statement.action_print_detailed_activity_statement_xlsx
+msgid "Detailed Activity Statement XLSX"
+msgstr "Детальна відомість активності XLSX"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_res_config_settings__group_activity_statement
+msgid "Enable OCA Activity & Detailed Activity Statements"
+msgstr "Увімкнути відомість активності та детальну відомість OCA"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_res_config_settings__group_outstanding_statement
+msgid "Enable OCA Outstanding Statements"
+msgstr "Увімкнути OCA Outstanding Statements"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_res_config_settings__default_filter_partners_non_due
+msgid "Exclude partners with no due entries"
+msgstr "Виключити контрагентів без прострочених записів"
+
+#. module: partner_statement
+#: model:ir.actions.report,name:partner_statement.action_print_outstanding_statement_xlsx
+msgid "Outstanding Statement XLSX"
+msgstr "Непогашена виписка XLSX"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.res_config_settings_view_form
+msgid "Outstanding Statements show all transactions up to a date."
+msgstr "Непогашені виписки показують усі транзакції до певної дати."
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.res_config_settings_view_form
+msgid "Partner Statements"
+msgstr "Виписки партнера"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.res_config_settings_view_form
+msgid "Please set defaults under Activity Statements."
+msgstr "Встановіть значення за замовчуванням у «Відомостях активності»."
+
+#. module: partner_statement
+#: model:ir.model.fields,help:partner_statement.field_activity_statement_wizard__excluded_accounts_selector
+#: model:ir.model.fields,help:partner_statement.field_detailed_activity_statement_wizard__excluded_accounts_selector
+#: model:ir.model.fields,help:partner_statement.field_outstanding_statement_wizard__excluded_accounts_selector
+#: model:ir.model.fields,help:partner_statement.field_statement_common_wizard__excluded_accounts_selector
+msgid ""
+"Select account codes to be excluded with a comma-separated list of "
+"expressions like 70%."
+msgstr ""
+"Виберіть коди рахунків для виключення, указавши через кому список виразів на"
+" кшталт 70%."
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__show_balance
+msgid "Show Balance column"
+msgstr "Показувати стовпець балансу"
+
+#. module: partner_statement
+#: model:ir.model.fields,help:partner_statement.field_activity_statement_wizard__show_only_overdue
+#: model:ir.model.fields,help:partner_statement.field_detailed_activity_statement_wizard__show_only_overdue
+#: model:ir.model.fields,help:partner_statement.field_outstanding_statement_wizard__show_only_overdue
+#: model:ir.model.fields,help:partner_statement.field_statement_common_wizard__show_only_overdue
+msgid "Show only lines due before the selected date"
+msgstr "Показувати лише рядки зі строком до вибраної дати"

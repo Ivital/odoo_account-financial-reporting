@@ -23,3 +23,13 @@ msgstr "Накопичувальний баланс журнальних поз�
 #: model_terms:ir.ui.view,arch_db:account_move_line_cumulated_balance.view_move_line_pivot_cumulated_balance
 msgid "Journal Items"
 msgstr "Проведення журналу"
+
+#. module: account_move_line_cumulated_balance
+#: model_terms:ir.ui.view,arch_db:account_move_line_cumulated_balance.account_move_line_graph_date_cumulated_balance
+msgid "Account Statistics"
+msgstr "Статистика рахунку"
+
+#. module: account_move_line_cumulated_balance
+#: model_terms:ir.ui.view,arch_db:account_move_line_cumulated_balance.view_account_move_line_filter_cumulated_balance
+msgid "Cumulated Balance != 0"
+msgstr "Накопичений баланс != 0"

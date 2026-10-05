@@ -158,3 +158,18 @@ msgstr "Номер зіставлення"
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__parent_state
 msgid "Parent State"
 msgstr "Батьківський стан"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_account_account__hide_in_cash_flow
+msgid "Hide in Cash Flow?"
+msgstr "Приховувати у грошовому потоці?"
+
+#. module: mis_builder_cash_flow
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_search_view
+msgid "Journal items where matching number isn't set"
+msgstr "Записи журналу без встановленого номера зіставлення"
+
+#. module: mis_builder_cash_flow
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_tree_view
+msgid "Open Journal Item / Forecast Line"
+msgstr "Відкритий запис журналу / рядок прогнозу"
